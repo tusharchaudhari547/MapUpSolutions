@@ -92,7 +92,7 @@ const MapWithCountries = () => {
           <option value="uk">UK</option>
           <option value="usa">USA</option>
         </select>
-        <button onClick={() => showCountryBounds()}>Show Country</button>
+        <button onClick={() => showCountryBounds()}>Load</button>
       </div>
       <h3>Info for {countryInfo?.name?.common}</h3>
       <Card>
